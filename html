@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="/pagina-processa-dados-form" method="post">
+
+        <label for="campoUsuario"><b>Usuário:</b></label>
+        <input id="campoUsuario" type="text" name="usuario" required>
+
+        <label for="campoSenha"><b>Senha:</b></label>
+        <input id="campoSenha" type="password" name="senha" required>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email">
+
+        <button type="submit">ENVIAR</button>
+    </form>
+    <hr>
+    <form action="/pagina-processa-dados-form" method="post">
+
+        <label for="html">HTML</label>
+        <input id="html" type="checkbox">
+
+        <label for="css">CSS</label>
+        <input id="css" type="checkbox">
+
+        <label for="javascript">JavaScript</label>
+        <input id="javascript" type="checkbox">
+    </form>
+    </hr>
+    <hr>
+    <form action="/pagina-processa-dados-form" method="post">
+        <label for="masculino">Masculino</label>
+        <input id="masculino" type="radio" name="genero" value="masculino">
+
+        <label for="feminino">Feminino</label>
+        <input id="feminino" type="radio" name="genero" value="feminino">
+    </form>
+    </hr>
+    <hr>
+    <form action="/pagina-processa-dados-form" method="post">
+        <label for="tel">Telefone:</label>
+        <input id="tel" type="tel" placeholder="(XX)XXXXX-XXXX" name="telefone">
+    </form>
+    </hr>
+
+    <hr>
+    <form action="/pagina-processa-dados-form" method="post">
+        <label for="search">Pesquisa:</label>
+        <input id="search" type="search" placeholder="Procurando aqui" name="pesquisa">
+    </form>
+    </hr>
+
+    <hr>
+    <form action="/pagina-processa-dados-form" method="post">
+        <label for="range">Range:</label>
+        <input id="range" type="range" name="range">
+    </form>
+    </hr>
+
+    <hr>
+    <form action="/pagina-processa-dados-form" method="post">
+        <label for="color">Cor:</label>
+        <input id="color" type="color" name="cor">
+    </form>
+    </hr>
+
+    <hr>
+    <form action="/pagina-processa-dados-form" method="post">
+        <label for="date">Data:</label>
+        <input id="date" type="date" name="data">
+    </form>
+    </hr>
+
+    <hr>
+    <select>
+        <option value="sao_paulo">SÃO PAULO</option>
+        <option value="rio_janeiro">RIO DE JANEIRO</option>
+        <option value="goiania">GOIÂNIA</option>
+        <option value="porto">PORTO</option>
+    </select>
+    </hr>
+
+    <hr>
+    <form action="/pagina-processa-dados-form" method="post">
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" cols="70" rows="10"></textarea>
+
+        <button type="submit">ENVIAR</button>
+    </form>
+    </hr>
+
+
+</body>
+
+</html>
